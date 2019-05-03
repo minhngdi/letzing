@@ -1,0 +1,54 @@
+<div class="inner-banner">
+  <header>
+    <nav class="mnu navbar-light">
+      <div class="logo" id="logo">
+        <h1>
+          <%= link_to "#home_path" ,class: "editContent logo_style" do %>
+          <h2><b><%= t ".logo_title" %></b></h2>
+          <% end %>
+        </h1>
+      </div>
+      <label for="drop" class="toggle">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="drop">
+      <ul class="menu">
+        <li class="dropdown">
+          <%= link_to "#home",class: "dropdown-toggle",
+          "data-toggle" => "dropdown" do %>
+          <i class="fa fa-user"></i>
+          <% end %>
+          <ul class="dropdown-menu">
+            <li><%= link_to t(".profile"), "#profile" %></li>
+            <li><%= link_to t(".songs"), "#songs" %></li>
+            <li><%= link_to t(".match_list"), "#match_list" %></li>
+            <li class="divider"></li>
+            <li>
+              <%= link_to t(".log_out"), "logout" %>
+            </li>
+          </ul>
+        </li>
+
+        <li><%= link_to t(".home"), "#home" %></li>
+
+        <li><%= link_to t(".about"), "#about" %></li>
+
+        <li><%= link_to t(".contact_us"), "#contact" %></li>
+
+        <li class="dropdown">
+          <%= link_to "#home",class: "dropdown-toggle",
+          "data-toggle" => "dropdown" do %>
+          <i class="fa fa-globe"></i>
+          <% end %>
+
+          <ul class="dropdown-menu">
+            <li><%= link_to "English", locale:"en" %></li>
+            <li><%= link_to "Tiếng Việt", locale:"vi" %></li>
+          </ul>
+
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <%= yield :header_content %>
+</div>

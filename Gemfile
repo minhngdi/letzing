@@ -13,9 +13,10 @@ gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
 
 gem "bootstrap"
-gem "jquery-rails"
 gem "font-awesome-rails"
-gem "popper_js" , "~> 1.14.5"
+gem "jquery-rails"
+gem "popper_js"
+gem "rails-i18n"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

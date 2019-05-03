@@ -1,0 +1,11 @@
+vi:
+  layouts:
+    header:
+      logo_title: "LET US ZING"
+      profile: "Trang cá nhân"
+      songs: "Bài hát"
+      match_list: "Danh sách match"
+      log_out: "Đăng xuất"
+      home: "Trang chủ"
+      about: "Về chúng tôi"
+      contact_us: "Liên hệ"
