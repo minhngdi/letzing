@@ -1,9 +1,3 @@
-/*--Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
- --*/
-
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -523,7 +517,7 @@ h2.w3ls-title {
 /* slide */
 
 .slide-bg {
-    background: url(../images/bg2.jpg) no-repeat;
+    background: url(bg2.jpg) no-repeat;
     background-size: cover;
     min-height: 40vw;
 }
@@ -812,7 +806,7 @@ h3.tittle {
 }
 /* news */
 .news {
-    background: url(../images/bg3.jpg) no-repeat center;
+    background: url(bg3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
