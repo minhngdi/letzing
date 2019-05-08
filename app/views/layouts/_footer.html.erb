@@ -1,0 +1,56 @@
+<footer class="newsletter_right pymd-5 py-4" id="footer">
+  <div class="container">
+    <div class="inner-sec py-md-5 py-3">
+      <div class="row mb-md-4 mb-md-3">
+
+        <div class="col-lg-3 col-md-6 social-info text-left">
+         <h3 class="tittle1 foot mb-md-5 mb-4 text-white"><%= t ".gitouch" %></h3>
+         <p><%= t ".street" %></p>
+         <p class="my-2"><%= t ".city" %></p>
+         <p class="phone"><%= t ".phone" %></p>
+         <p class="phone"><%= t ".mail" %>
+          <%= link_to t(".mail_to"),"mailto:minh.ngdi@gmail.com" %>
+         </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 social-info text-left">
+         <h3 class="tittle1 foot mb-md-5 mb-4 text-white"><%= t ".about" %></h3>
+         <p><%= t ".about_content" %></p>
+        </div>
+
+        <div class="col-lg-6 col-md-12 n-right tex-left">
+          <h3 class="tittle1 foot mb-md-5 mb-4 text-white"><%= t ".sub_to" %></h3>
+          <form action="#" method="post">
+            <div class="form-group d-flex">
+              <input class="form-control" type="email" name="Email" placeholder=" Email Address" required="">
+              <button class="form-control submit text-uppercase" type="submit ">
+                <%= t ".sub" %></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <p class="copy-right mt-2">© 2019 Let us Zing. All Rights Reserved | Design by HEDSPi_6kTeam
+        </p>
+      </div>
+      <div class="col-md-4">
+        <ul class="social-icons scial justify-content-end">
+          <li class="mr-1"><%= link_to "#" do %><span class="fa fa-facebook"></span>
+            <% end %></li>
+          <li class="mr-1"><%= link_to "#" do %><span class="fa fa-twitter"></span>
+            <% end %></li>
+          <li class="mr-1"><%= link_to "#" do %><span class="fa fa-google-plus"></span>
+            <% end %></li>
+          <li class="mr-1"><%= link_to "#" do %><span class="fa fa-linkedin"></span>
+            <% end %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -9,3 +9,15 @@ en:
       home: "Home"
       about: "About"
       contact_us: "Contact us"
+    footer:
+      gitouch: "Get in touch"
+      street: "3000 Ho Hoan Kiem "
+      city: "Ha Noi City, VN"
+      phone: "phone: +066 8888 6868"
+      mail: "Mail:"
+      mail_to: "minh.ngdi@gmail.com"
+      about: "About Us"
+      about_content: "Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus.
+       Nulla porttitor accumsana tincidunt. Vestibulum ante ipsum primis tempus convallis."
+      sub_to: "Subscribe our Newsletter"
+      sub: "Subscribe"

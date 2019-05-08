@@ -9,3 +9,15 @@ vi:
       home: "Trang chủ"
       about: "Về chúng tôi"
       contact_us: "Liên hệ"
+    footer:
+      gitouch: "Hãy liên hệ"
+      street: "3000 Hồ Hoàn Kiếm "
+      city: "Thành phố Hà Nội, VN"
+      phone: "phone: +066 8888 6868"
+      mail: "Thư điện tử:"
+      mail_to: "minh.ngdi@gmail.com"
+      about: "Về chúng tôi"
+      about_content: "Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at tellus.
+       Nulla porttitor accumsana tincidunt. Vestibulum ante ipsum primis tempus convallis."
+      sub_to: "Đăng kí Newsletter của chúng tôi"
+      sub: "Đăng kí"
